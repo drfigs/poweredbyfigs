@@ -15,7 +15,7 @@ body {
     background: #fff none repeat scroll 0 0;
     color: #333232;
     font-family: Lora,serif;
-    font-size: 24px;
+    font-size: 20px;
     height: 100%;
 }
 h1 {
@@ -278,39 +278,39 @@ a {
     opacity: 1;
 }
 #sub-nav .social a.facebook {
-    background: #666 url("/images/social/facebook.png?1385901537") no-repeat scroll center center;
+    background: #666 url("./facebook.png") no-repeat scroll center center;
     border: 3px solid #3b5998;
 }
 #sub-nav .social a.facebook:hover {
     border: 3px solid #2d4373;
 }
 #sub-nav .social a.google {
-    background: #666 url("/images/social/google.png?1385901539") no-repeat scroll center center;
+    background: #666 url("./google.png") no-repeat scroll center center;
     border: 3px solid #c83d20;
 }
 #sub-nav .social a.google:hover {
     border: 3px solid #9c3019;
 }
 #sub-nav .social a.twitter {
-    background: #666 url("/images/social/twitter.png?1385901543") no-repeat scroll center center;
+    background: #666 url("./twitter.png") no-repeat scroll center center;
     border: 3px solid #55cff8;
 }
 #sub-nav .social a.twitter:hover {
     border: 3px solid #24c1f6;
 }
 #sub-nav .social a.github {
-    background: #666 url("/images/social/github.png?1385901538") no-repeat scroll center center;
+    background: #666 url("./github.png") no-repeat scroll center center;
     border: 3px solid #afb6ca;
 }
 #sub-nav .social a.github:hover {
     border: 3px solid #909ab6;
 }
 #sub-nav .social a.linkedin {
-    background: #666 url("/images/social/linkedin.png?1385901540") no-repeat scroll center center;
+    background: #666 url("./linkedin.png") no-repeat scroll center center;
     border: 3px solid #005a87;
 }
 #sub-nav .social a.rss {
-    background: #666 url("/images/social/rss.png?1385901542") no-repeat scroll center center;
+    background: #666 url("./rss.png") no-repeat scroll center center;
     border: 3px solid #ef7522;
 }
 #sub-nav .social a.rss:hover {
