@@ -149,7 +149,7 @@ a:hover {
 
 .container .left-col {
 
-    background: rgba(0, 0, 0, 0) url("./field-blur.jpg") no-repeat scroll center center / cover ;
+    background: rgba(0, 0, 0, 0) image-url("./field-blur.jpg") no-repeat scroll center center / cover ;
     border-right: 1px solid #333232;
     color: #fff;
     float: left;
@@ -278,7 +278,7 @@ a {
     opacity: 1;
 }
 #sub-nav .social a.facebook {
-    background: #666 url("/images/social/facebook.png?1385901537") no-repeat scroll center center;
+    background: #666 image-url("/images/social/facebook.png?1385901537") no-repeat scroll center center;
     border: 3px solid #3b5998;
 }
 #sub-nav .social a.facebook:hover {
