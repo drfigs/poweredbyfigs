@@ -1,0 +1,81 @@
+
+#epicWrapper {
+    background: #00b5ec none repeat scroll 0 0;
+    height: 100%;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 100%;
+}
+#epic {
+    background: transparent none repeat scroll 0 0;
+    min-height: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#wrapper {
+    height: 100%;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 100%;
+}
+#chill {
+    background: transparent none repeat scroll 0 0;
+    min-height: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#partition {
+  background: #fff200
+}
+.container {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#epic .top-links {
+    position: relative;
+    z-index: 10000;
+}
+
+#epic .social > a {
+    display: inline-block;
+    padding: 0 15px;
+    text-align: right;
+}
+
+
+#epic .tagline h1 {
+    color: white;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 74px;
+}
+
+#footer .about p {
+    color: #16364f;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin: 0 0 20px;
+    padding-right: 90px;
+    text-align: left;
+}
+
+
+#footer .contact p {
+    color: #16364f;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    margin: 0;
+}

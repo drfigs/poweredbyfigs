@@ -1,0 +1,318 @@
+@font-face {
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/font/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/font/fontawesome-webfont.woff") format("woff"), url("/font/fontawesome-webfont.ttf") format("truetype"), url("/font/fontawesome-webfont.svgz#FontAwesomeRegular") format("svg"), url("/font/fontawesome-webfont.svg#FontAwesomeRegular") format("svg");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    background: #fff none repeat scroll 0 0;
+    color: #333232;
+    font-family: Lora,serif;
+    font-size: 24px;
+    height: 100%;
+}
+h1 {
+    color: #9a9797;
+    font-family: "Open Sans",sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+a {
+    color: #089cce;
+    outline-width: 0;
+    text-decoration: none;
+}
+a:hover {
+    color: #089cce;
+}
+.clear {
+    clear: both;
+}
+.button {
+    background: #089cce none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 5px 20px;
+    text-transform: none;
+    transition: all 0.3s ease 0s;
+    width: auto;
+}
+.button:hover {
+    background: #04526c none repeat scroll 0 0;
+}
+
+
+#epicWrapper {
+    background: #00b5ec none repeat scroll 0 0;
+    height: 100%;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 100%;
+}
+#epic {
+    background: transparent none repeat scroll 0 0;
+    min-height: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#wrapper {
+    height: 100%;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 100%;
+}
+#chill {
+    background: transparent none repeat scroll 0 0;
+    min-height: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#partition {
+  background: #fff200
+}
+.container {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#epic .top-links {
+    position: relative;
+    z-index: 10000;
+}
+
+#epic .social > a {
+    display: inline-block;
+    padding: 0 15px;
+    text-align: right;
+}
+
+
+#epic .tagline h1 {
+    color: white;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 74px;
+}
+
+#footer .about p {
+    color: #16364f;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin: 0 0 20px;
+    padding-right: 90px;
+    text-align: left;
+}
+
+
+#footer .contact p {
+    color: #16364f;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.container .left-col {
+
+    background: rgba(0, 0, 0, 0) url("./field-blur.jpg") no-repeat scroll center center / cover ;
+    border-right: 1px solid #333232;
+    color: #fff;
+    float: left;
+    font-size: 0.8em;
+    height: 100%;
+    position: fixed;
+    text-align: right;
+    transition: all 0.2s ease-in 0s;
+    width: 320px;
+    z-index: 1;
+}
+
+
+
+.container .mid-col {
+    float: left;
+    margin-left: 320px;
+}
+
+
+.container .mid-col .mid-col-container {
+    padding: 0 40px;
+}
+
+
+.container .mid-col .mid-col-container #content {
+    max-width: 800px;
+    width: 100%;
+}
+
+.container .mid-col .mid-col-container #content article {
+    border-top: medium none;
+}
+
+
+#header {
+    border-bottom: medium none;
+    height: auto;
+    padding: 30px 40px 0 0;
+}
+#header a {
+    color: inherit;
+    transition: all 0.2s ease 0s;
+}
+#header a:hover {
+    color: #089cce;
+}
+#header .profilepic img {
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+#header h1 {
+    color: #fff;
+    float: none;
+    font-family: Lora,serif;
+    font-size: 2rem;
+    margin: 15px 0;
+    text-transform: none;
+}
+
+
+
+#main-nav {
+    margin-top: 0;
+}
+
+#main-nav ul {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#main-nav ul li {
+    display: block;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    line-height: 2em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#main-nav ul li a {
+    padding: 0;
+}
+
+
+.inner {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
+
+article.post {
+    border-bottom: 1px solid #ddd;
+}
+
+article h1.title a {
+    color: #333232;
+}
+
+a {
+    color: #089cce;
+    outline-width: 0;
+    text-decoration: none;
+    }
+
+#sub-nav {
+    display: block;
+    margin-bottom: 0;
+}
+#sub-nav .social {
+    float: none;
+}
+#sub-nav .social a {
+    border-radius: 50%;
+    display: inline-block;
+    height: 28px;
+    margin-right: 5px;
+    opacity: 0.5;
+    overflow-x: hidden;
+    text-indent: 9999px;
+    transition: all 0.3s ease 0s;
+    width: 28px;
+}
+#sub-nav .social a:hover {
+    opacity: 1;
+}
+#sub-nav .social a.facebook {
+    background: #666 url("/images/social/facebook.png?1385901537") no-repeat scroll center center;
+    border: 3px solid #3b5998;
+}
+#sub-nav .social a.facebook:hover {
+    border: 3px solid #2d4373;
+}
+#sub-nav .social a.google {
+    background: #666 url("/images/social/google.png?1385901539") no-repeat scroll center center;
+    border: 3px solid #c83d20;
+}
+#sub-nav .social a.google:hover {
+    border: 3px solid #9c3019;
+}
+#sub-nav .social a.twitter {
+    background: #666 url("/images/social/twitter.png?1385901543") no-repeat scroll center center;
+    border: 3px solid #55cff8;
+}
+#sub-nav .social a.twitter:hover {
+    border: 3px solid #24c1f6;
+}
+#sub-nav .social a.github {
+    background: #666 url("/images/social/github.png?1385901538") no-repeat scroll center center;
+    border: 3px solid #afb6ca;
+}
+#sub-nav .social a.github:hover {
+    border: 3px solid #909ab6;
+}
+#sub-nav .social a.linkedin {
+    background: #666 url("/images/social/linkedin.png?1385901540") no-repeat scroll center center;
+    border: 3px solid #005a87;
+}
+#sub-nav .social a.rss {
+    background: #666 url("/images/social/rss.png?1385901542") no-repeat scroll center center;
+    border: 3px solid #ef7522;
+}
+#sub-nav .social a.rss:hover {
+    border: 3px solid #cf5d0f;
+}

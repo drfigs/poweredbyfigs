@@ -1,0 +1,67 @@
+<div id="epicWrapper" class="container-fluid">
+  <div id="epic" class="container">
+
+    <div class="row top-links">
+      <div class="logo col-xs-3 col-sm-3 col-md-2 col-lg-2">
+        <p> logo </p>
+      </div>
+      <div class="social col-xs-9 col-sm-9 col-md-10 col-lg-10">
+        <p> other links </p>
+      </div>
+    </div>
+
+    <div class="row tagline">
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <h1>We make great software, </h1>
+        <h1>We power your success </h1>
+        <h2>Have a project for us?</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="wrapper" class="container-fluid">
+  <div id="chill" class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="main-heather">
+       		<h1> this is the home page </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="partition" class="container-fluid">
+  <div id="chill" class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="main-heather">
+          <h1> contact Us </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footer" class="container">
+  <div class="row">
+    <div class="about col-xs-12 col-sm-12 col-md-6 col-lg-6" style="min-height: 518px;">
+      <h1>About Us</h1>
+      <p>We are a Creative Digital Agency based in Buenos Aires, Argentina. We take pride in designing and building beautiful, highly functional products that people enjoy using. We also create unique visual identities and high-impact 2D/3D animations.</p>
+      <p>As an interdisciplinary agile team, our production process is flexible, collaborative, and adapts to each client’s needs. We look forward to working with you on your next project.</p>
+
+      <div class="social-links">
+      </div>
+    </div>
+
+    <div class="contact col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <h1>Contact Us</h1>
+      <p>A new project is an opportunity to create something unique.
+      <strong>Tell us about your idea. </strong>
+      </p>
+    </div>
+  </div>
+</div>
