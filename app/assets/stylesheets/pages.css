@@ -316,3 +316,8 @@ a {
 #sub-nav .social a.rss:hover {
     border: 3px solid #cf5d0f;
 }
+
+.logo-about{
+  max-width: 100%;
+  height: auto;
+}
