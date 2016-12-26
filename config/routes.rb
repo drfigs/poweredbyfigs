@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get "/about" => "pages#show", page: "about", as: 'about'
   get "/freelancer" => "pages#show", page: "freelancer", as: 'freelancer'
   get "/blog" => "pages#show", page: "blog"
-
+  root "pages#show", page: "about"
 end
