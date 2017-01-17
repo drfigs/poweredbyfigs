@@ -26,6 +26,18 @@ h1 {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
+.modal-landing {
+    max-height:750px
+
+}
+
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+
 h2 {
     font-size: 1.6rem;
     font-weight: bold;
@@ -320,4 +332,23 @@ a {
 .logo-about{
   max-width: 100%;
   height: auto;
+}
+
+.img-responsive-height
+{
+  display: block;
+  width: 100%;
+  max-height: 35%
+}
+
+.modal-header {
+    background: #000
+}
+
+.modal-title {
+  line-height:1.42857;
+  margin:0;
+  color: white;
+  text-align: center;
+  font-size: 45px;
 }
