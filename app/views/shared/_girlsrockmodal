@@ -8,6 +8,11 @@
         </button>
       </div>
       <div class="modal-body">
+          <div class="description">
+        <ul class="modal_description">
+          <li>Application maneger, Events  </li>
+        </ul>
+      </div>
         <%= image_tag('rock_camp', class: "img-responsive-height") %>
       </div>
       <div class="modal-footer">
