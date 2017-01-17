@@ -201,6 +201,8 @@ a:hover {
     border-bottom: medium none;
     height: auto;
     padding: 30px 40px 0 0;
+    background:rgba(33, 33,33,0.5);
+
 }
 #header a {
     color: inherit;
@@ -352,3 +354,24 @@ a {
   text-align: center;
   font-size: 45px;
 }
+
+.modal-body {
+  padding:15px;
+  position:relative;
+
+}
+ul.modal_description{
+  list-style-type: none;
+
+}
+
+.description{
+    padding: 20px;
+}
+
+
+.vertical-pad {
+  padding-top: 70px
+
+}
+
