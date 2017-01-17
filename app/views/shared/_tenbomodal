@@ -11,10 +11,6 @@
         <div class="description">
         <ul class="modal_description">
           <li>Hosting Platform for hosting GIS assets(*.cad, *.pdf, *.las, *.tiff) </li>
-          <li>API Vimeo - private clients</li>
-          <li>Multi User</li>
-          <li>Aws</li>
-          <li> Digital Ocean</li>
         </ul>
       </div>
         <%= image_tag('tenbo_land', class: "img-responsive-height") %>
