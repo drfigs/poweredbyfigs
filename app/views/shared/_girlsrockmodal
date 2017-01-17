@@ -10,7 +10,7 @@
       <div class="modal-body">
           <div class="description">
         <ul class="modal_description">
-          <li>Application maneger, Events  </li>
+          <li>Application manager, Events  </li>
         </ul>
       </div>
         <%= image_tag('rock_camp', class: "img-responsive-height") %>
